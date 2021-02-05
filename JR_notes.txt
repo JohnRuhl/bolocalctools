@@ -1,0 +1,26 @@
+
+1/4/2021
+Trying to sort out differences between old experiments:
+
+JR1:
+  SAT, Pole, 0.425mm pwv, Flink set to barkats value=0.667, 
+  Same as JR2 but with det eff = 0.4 across the board.
+
+JR2:
+  SAT, Pole, 0.425mm pwv, Flink set to barkats value=0.667, 
+  flat bands, all 24% bandwidth, Psat factor = 2.5, 
+  Tc = 0.5K, Rbolo = 0.05Ohms, no read noise.
+  Carrier index = 2
+  Det Eff = (0.402, 0.383), (0.405, 0.4153), (0.429, 0.434)
+   I think this was to match Barkats optical powers.
+  window, 3 IR blockers, Aptop 14% abs, lenses 5%. 
+
+JR3:
+  Like JR1.  Not sure if there is a difference.
+
+
+What I want to set up:
+  LAT Chile and Pole using same Psats.
+   
+
+

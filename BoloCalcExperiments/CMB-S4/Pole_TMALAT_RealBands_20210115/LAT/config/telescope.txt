@@ -1,0 +1,8 @@
+Parameter	       | Unit  | Value	
+Site                   | NA    | Pole
+Elevation              | [deg] | 50.00 +/- 0.000
+PWV                    | [mm]  | 0.3210 +/- 0.000
+Observation Time       | [Yrs] | 7.000 +/- 0.000
+Sky Fraction	       | NA    | 0.400 +/- 0.000
+Observation Efficiency | NA    | 0.800 +/- 0.000
+NET Margin	       | NA    | 1.000 +/- 0.000
