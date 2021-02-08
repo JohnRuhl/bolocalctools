@@ -41,11 +41,13 @@ Pole_SAT_FlatBands_20210206       New (better) flat band edges, 5% ade filter, s
 SAT CMB-S4 models for forming the ratios needed for N_ell scaling:
 
 Pole_SAT_FlatBands_20210115/
+   *** use 20210206 version above
    This is the "numerator" model.
    Flat bands model of SAT.  These flat bands are designed to approximate 
    the LAT "Real bands" in terms of their centers and widths and efficiencies.
 
 Atacama_SAT_FlatBands_20210130/
+   ***(Not up to date, needs revision)
    This is the numerator model for Atacama.  Identical to Pole_SAT_FlatBands_20210115, but site=Atacama, pwv = 0.993.
 
 Pole_SAT_Bicep3bands_20210130/
@@ -55,6 +57,10 @@ Pole_SAT_Bicep3bands_20210130/
      95GHz:  25% frac bandwidth.  det_eff = 0.65 to match s4 flat bands 95GHz
      150GHz: 25% frac bandwidth.  det_eff = 0.68 to match s4 flat bands 150GHz
      230GHz: 20% frac bandwidth.  det_eff = 0.67 to match s4 flat bands 220GHz
+
+
+Options models:
+  Pole_SAT_FlatBands_MFsamePsat_20210207/     Sets MF1 and MF2 psats the same.
 
 
 Extra SAT models:
