@@ -11,7 +11,8 @@ expt_dir=CMB-S4
 #run=Pole_SAT_FlatBands_MFsamePsat_20210207
 #run=Pole_TMALAT_FlatBands_OptionPsat_20210207
 #run=Pole_TMALAT_FlatBands_Option2Psat_20210207
-run=Atacama_CDLAT_FlatBands_Option2Psat_20210207
+#run=Atacama_CDLAT_FlatBands_Option2Psat_20210207
+run=Pole_SAT_Bicep3bands_20210211
 
 echo $expt_dir
 echo $run

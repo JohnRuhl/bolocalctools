@@ -50,7 +50,8 @@ Atacama_SAT_FlatBands_20210130/
    ***(Not up to date, needs revision)
    This is the numerator model for Atacama.  Identical to Pole_SAT_FlatBands_20210115, but site=Atacama, pwv = 0.993.
 
-Pole_SAT_Bicep3bands_20210130/
+Pole_SAT_Bicep3bands_20210211/
+   Fixed typo in Pole_SAT_Bicep3bands_20210211   optics.txt, which had 10x too much emission at 220GHz for the IR shaders.
    This is the "denominator" model.
    Same properties (and optics) as Pole_SAT_FlatBands_20210115/, except with
      Tbase = 250mK, Tc = 520mK, and only for 3 bands
@@ -65,6 +66,9 @@ Options models:
 
 Extra SAT models:
 -----------------
+Pole_SAT_Bicep3bands_20210211/
+   Deprecated, bad value in IR shaders at 220GHz.
+
 Pole_SAT_BicepLike_20210115/
    Model just like Pole_SAT_FlatBands_20210115/ but with Tbase = 250mK, 
    Tc = 520mK, and broader (non-split) 90/150 GHz bands.
